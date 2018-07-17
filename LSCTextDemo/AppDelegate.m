@@ -7,8 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "LSCTabBarViewController.h"
+#import "SectionViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) ViewController *loginVC;
+@property LSCTabBarViewController *tabBarC;
+//声明，这样局部变量才能转换成全局变量
+
 
 @end
 
@@ -17,8 +25,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //初始化，全屏
+    self.loginVC = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.loginVC];
+    //导航控制器，rootviewcontroller是第一个界面，即nav的第一个界面是loginVC
+    self.window.rootViewController = nav;
+    //window的第一个界面是nav
+    [self.window makeKeyAndVisible];
+    //设置并显示主窗口
     return YES;
+
 }
+
+- (void)clearAllViewController { //自定义的方法，清空屏幕。注意要在.h文件中声明
+    self.loginVC = nil;
+}
+
+- (void)changeToTabBarController {  //自定义的方法，跳转到tabbar。注意要在.h文件中声明
+    self.tabBarC = [[LSCTabBarViewController alloc] init];  //初始化tabBarC
+//    UINavigationController *navtab=[[UINavigationController alloc]initWithRootViewController:tabBarC];  //错误
+    self.window.rootViewController = self.tabBarC;  //设置第一个界面是navtab
+}
+
+
+
+
+- (void)changeToLogin {  //自定义的方法.注意要在.h文件中声明
+    ViewController *login=[[ViewController alloc]init];
+    self.window.rootViewController=login;
+}
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

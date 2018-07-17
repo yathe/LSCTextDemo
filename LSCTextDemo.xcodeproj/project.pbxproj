@@ -15,6 +15,29 @@
 		AD6E534D20F5A6EC00CC57A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E534C20F5A6EC00CC57A1 /* main.m */; };
 		AD6E535720F5A6EC00CC57A1 /* LSCTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E535620F5A6EC00CC57A1 /* LSCTextDemoTests.m */; };
 		AD6E536220F5A6EC00CC57A1 /* LSCTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E536120F5A6EC00CC57A1 /* LSCTextDemoUITests.m */; };
+		AD6E537220F5D98200CC57A1 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6E537120F5D98200CC57A1 /* 123.png */; };
+		AD6E537520F5F03B00CC57A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E537420F5F03B00CC57A1 /* FirstViewController.m */; };
+		AD6E538020F63AF500CC57A1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E537F20F63AF500CC57A1 /* SecondViewController.m */; };
+		ADD0DF2E20F6D91A006834D4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD0DF2D20F6D91A006834D4 /* ThirdViewController.m */; };
+		ADD0DF3120F6D931006834D4 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD0DF3020F6D931006834D4 /* ForthViewController.m */; };
+		ADD0DF3420F6D947006834D4 /* LSCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD0DF3320F6D947006834D4 /* LSCTabBarViewController.m */; };
+		ADD0DF3920F6F3A7006834D4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF3820F6F3A7006834D4 /* 3.png */; };
+		ADD0DF3B20F6F3EB006834D4 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF3A20F6F3EB006834D4 /* 4.png */; };
+		ADD0DF3D20F6F42C006834D4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF3C20F6F42C006834D4 /* 1.png */; };
+		ADD0DF3F20F6F4B9006834D4 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF3E20F6F4B9006834D4 /* 2.png */; };
+		ADD0DF4820F745A4006834D4 /* Firsts.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD0DF4720F745A4006834D4 /* Firsts.m */; };
+		ADD0DF4F20F74A6D006834D4 /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF4920F74A6C006834D4 /* photo4.png */; };
+		ADD0DF5020F74A6D006834D4 /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF4A20F74A6D006834D4 /* photo2.png */; };
+		ADD0DF5120F74A6D006834D4 /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF4B20F74A6D006834D4 /* photo3.png */; };
+		ADD0DF5220F74A6D006834D4 /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF4C20F74A6D006834D4 /* photo5.png */; };
+		ADD0DF5320F74A6D006834D4 /* photo6.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF4D20F74A6D006834D4 /* photo6.png */; };
+		ADD0DF5420F74A6D006834D4 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF4E20F74A6D006834D4 /* photo1.png */; };
+		ADD0DF5620F75208006834D4 /* photo7.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD0DF5520F75208006834D4 /* photo7.png */; };
+		ADE1F66020F83C5800715278 /* i.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F65F20F83C5800715278 /* i.jpeg */; };
+		ADE1F66320F87A6600715278 /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1F66220F87A6600715278 /* SectionViewController.m */; };
+		ADE1F66620F899DC00715278 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE1F66520F899DC00715278 /* AddViewController.m */; };
+		ADE1F66F20F8DFB500715278 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F66E20F8DFB500715278 /* bg.png */; };
+		ADF1568F20FC7DCA0079B43B /* icon_launch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADF1568E20FC7DCA0079B43B /* icon_launch.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,37 @@
 		AD6E535D20F5A6EC00CC57A1 /* LSCTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSCTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6E536120F5A6EC00CC57A1 /* LSCTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCTextDemoUITests.m; sourceTree = "<group>"; };
 		AD6E536320F5A6EC00CC57A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6E537120F5D98200CC57A1 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		AD6E537320F5F03B00CC57A1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AD6E537420F5F03B00CC57A1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AD6E537E20F63AF500CC57A1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AD6E537F20F63AF500CC57A1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		ADD0DF2C20F6D91A006834D4 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		ADD0DF2D20F6D91A006834D4 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		ADD0DF2F20F6D931006834D4 /* ForthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		ADD0DF3020F6D931006834D4 /* ForthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		ADD0DF3220F6D947006834D4 /* LSCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSCTabBarViewController.h; sourceTree = "<group>"; };
+		ADD0DF3320F6D947006834D4 /* LSCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCTabBarViewController.m; sourceTree = "<group>"; };
+		ADD0DF3820F6F3A7006834D4 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		ADD0DF3A20F6F3EB006834D4 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		ADD0DF3C20F6F42C006834D4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		ADD0DF3E20F6F4B9006834D4 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		ADD0DF4620F745A4006834D4 /* Firsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firsts.h; sourceTree = "<group>"; };
+		ADD0DF4720F745A4006834D4 /* Firsts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Firsts.m; sourceTree = "<group>"; };
+		ADD0DF4920F74A6C006834D4 /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		ADD0DF4A20F74A6D006834D4 /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		ADD0DF4B20F74A6D006834D4 /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		ADD0DF4C20F74A6D006834D4 /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		ADD0DF4D20F74A6D006834D4 /* photo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo6.png; sourceTree = "<group>"; };
+		ADD0DF4E20F74A6D006834D4 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		ADD0DF5520F75208006834D4 /* photo7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo7.png; sourceTree = "<group>"; };
+		ADE1F65F20F83C5800715278 /* i.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i.jpeg; sourceTree = "<group>"; };
+		ADE1F66120F87A6600715278 /* SectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionViewController.h; sourceTree = "<group>"; };
+		ADE1F66220F87A6600715278 /* SectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
+		ADE1F66420F899DC00715278 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		ADE1F66520F899DC00715278 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		ADE1F66E20F8DFB500715278 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		ADF1568E20FC7DCA0079B43B /* icon_launch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_launch.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +159,28 @@
 				AD6E533E20F5A6EA00CC57A1 /* AppDelegate.m */,
 				AD6E534020F5A6EA00CC57A1 /* ViewController.h */,
 				AD6E534120F5A6EA00CC57A1 /* ViewController.m */,
+				AD6E537320F5F03B00CC57A1 /* FirstViewController.h */,
+				AD6E537420F5F03B00CC57A1 /* FirstViewController.m */,
+				ADD0DF4620F745A4006834D4 /* Firsts.h */,
+				ADD0DF4720F745A4006834D4 /* Firsts.m */,
+				AD6E537E20F63AF500CC57A1 /* SecondViewController.h */,
+				AD6E537F20F63AF500CC57A1 /* SecondViewController.m */,
+				ADE1F66420F899DC00715278 /* AddViewController.h */,
+				ADE1F66520F899DC00715278 /* AddViewController.m */,
+				ADD0DF2C20F6D91A006834D4 /* ThirdViewController.h */,
+				ADD0DF2D20F6D91A006834D4 /* ThirdViewController.m */,
+				ADD0DF2F20F6D931006834D4 /* ForthViewController.h */,
+				ADD0DF3020F6D931006834D4 /* ForthViewController.m */,
+				ADE1F66120F87A6600715278 /* SectionViewController.h */,
+				ADE1F66220F87A6600715278 /* SectionViewController.m */,
+				ADD0DF3220F6D947006834D4 /* LSCTabBarViewController.h */,
+				ADD0DF3320F6D947006834D4 /* LSCTabBarViewController.m */,
 				AD6E534320F5A6EA00CC57A1 /* Main.storyboard */,
 				AD6E534620F5A6EC00CC57A1 /* Assets.xcassets */,
 				AD6E534820F5A6EC00CC57A1 /* LaunchScreen.storyboard */,
 				AD6E534B20F5A6EC00CC57A1 /* Info.plist */,
 				AD6E534C20F5A6EC00CC57A1 /* main.m */,
+				ADD0DF3520F6DA86006834D4 /* image */,
 			);
 			path = LSCTextDemo;
 			sourceTree = "<group>";
@@ -130,6 +201,28 @@
 				AD6E536320F5A6EC00CC57A1 /* Info.plist */,
 			);
 			path = LSCTextDemoUITests;
+			sourceTree = "<group>";
+		};
+		ADD0DF3520F6DA86006834D4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				ADE1F66E20F8DFB500715278 /* bg.png */,
+				AD6E537120F5D98200CC57A1 /* 123.png */,
+				ADD0DF3C20F6F42C006834D4 /* 1.png */,
+				ADD0DF3E20F6F4B9006834D4 /* 2.png */,
+				ADD0DF3820F6F3A7006834D4 /* 3.png */,
+				ADD0DF3A20F6F3EB006834D4 /* 4.png */,
+				ADF1568E20FC7DCA0079B43B /* icon_launch.jpeg */,
+				ADD0DF4E20F74A6D006834D4 /* photo1.png */,
+				ADD0DF4A20F74A6D006834D4 /* photo2.png */,
+				ADD0DF4B20F74A6D006834D4 /* photo3.png */,
+				ADD0DF4920F74A6C006834D4 /* photo4.png */,
+				ADD0DF4C20F74A6D006834D4 /* photo5.png */,
+				ADD0DF4D20F74A6D006834D4 /* photo6.png */,
+				ADD0DF5520F75208006834D4 /* photo7.png */,
+				ADE1F65F20F83C5800715278 /* i.jpeg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +328,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE1F66020F83C5800715278 /* i.jpeg in Resources */,
+				ADD0DF5320F74A6D006834D4 /* photo6.png in Resources */,
+				ADD0DF5120F74A6D006834D4 /* photo3.png in Resources */,
+				ADD0DF3D20F6F42C006834D4 /* 1.png in Resources */,
+				ADD0DF5620F75208006834D4 /* photo7.png in Resources */,
+				ADD0DF5420F74A6D006834D4 /* photo1.png in Resources */,
+				ADD0DF3920F6F3A7006834D4 /* 3.png in Resources */,
+				AD6E537220F5D98200CC57A1 /* 123.png in Resources */,
+				ADD0DF5220F74A6D006834D4 /* photo5.png in Resources */,
 				AD6E534A20F5A6EC00CC57A1 /* LaunchScreen.storyboard in Resources */,
+				ADE1F66F20F8DFB500715278 /* bg.png in Resources */,
 				AD6E534720F5A6EC00CC57A1 /* Assets.xcassets in Resources */,
+				ADD0DF4F20F74A6D006834D4 /* photo4.png in Resources */,
+				ADD0DF3B20F6F3EB006834D4 /* 4.png in Resources */,
+				ADD0DF5020F74A6D006834D4 /* photo2.png in Resources */,
+				ADD0DF3F20F6F4B9006834D4 /* 2.png in Resources */,
+				ADF1568F20FC7DCA0079B43B /* icon_launch.jpeg in Resources */,
 				AD6E534520F5A6EA00CC57A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +370,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6E538020F63AF500CC57A1 /* SecondViewController.m in Sources */,
 				AD6E534220F5A6EA00CC57A1 /* ViewController.m in Sources */,
+				ADE1F66620F899DC00715278 /* AddViewController.m in Sources */,
+				ADD0DF2E20F6D91A006834D4 /* ThirdViewController.m in Sources */,
+				ADD0DF4820F745A4006834D4 /* Firsts.m in Sources */,
+				ADE1F66320F87A6600715278 /* SectionViewController.m in Sources */,
 				AD6E534D20F5A6EC00CC57A1 /* main.m in Sources */,
+				ADD0DF3420F6D947006834D4 /* LSCTabBarViewController.m in Sources */,
 				AD6E533F20F5A6EA00CC57A1 /* AppDelegate.m in Sources */,
+				ADD0DF3120F6D931006834D4 /* ForthViewController.m in Sources */,
+				AD6E537520F5F03B00CC57A1 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LSCTextDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LSCTextDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

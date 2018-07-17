@@ -11,7 +11,11 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//自定义的方法需要在接口文件中声明
+- (void)clearAllViewController;
+- (void)changeToTabBarController;
 
+- (void)changeToLogin;
 
 @end
 
